@@ -47,6 +47,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="34"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rb9-H2-wSL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UWb-Ea-g36"/>
@@ -60,6 +63,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="green" destination="Pd4-In-rq1" id="ey0-w9-yq3"/>
+                        <outlet property="orange" destination="UDu-lT-jTC" id="O3j-ZJ-tsG"/>
+                        <outlet property="red" destination="XwQ-2p-AZM" id="W6D-I4-diC"/>
                         <outlet property="startButton" destination="dZM-X3-fQN" id="GfM-MX-iwL"/>
                         <outletCollection property="viewCollections" destination="XwQ-2p-AZM" collectionClass="NSMutableArray" id="QZd-7G-XyV"/>
                         <outletCollection property="viewCollections" destination="UDu-lT-jTC" collectionClass="NSMutableArray" id="I1j-Qs-LmJ"/>
