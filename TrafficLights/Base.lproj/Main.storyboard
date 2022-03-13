@@ -40,7 +40,8 @@
                                 <rect key="frame" x="145" y="659" width="124" height="55"/>
                                 <color key="backgroundColor" red="0.48157529249999997" green="0.18534001789999999" blue="0.79960843550000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="dZM-X3-fQN" secondAttribute="height" multiplier="124:55" id="W8L-XW-7MT"/>
+                                    <constraint firstAttribute="height" constant="55" id="0ma-c8-kMz"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="124" id="AaP-ke-xLw"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="START">
